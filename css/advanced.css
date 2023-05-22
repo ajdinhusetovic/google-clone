@@ -3,7 +3,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  outline: 1px solid red;
 }
 
 body {
@@ -17,16 +16,48 @@ body {
 header {
   padding: 20px 0 0 20px;
 }
+header a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
 
 .content-container {
   width: 90%;
   margin: 60px auto;
+}
+.content-container h3 {
+  color: #f28b82;
 }
 .content-container hr {
   margin-top: 20px;
 }
 .content-container .content {
   margin-top: 40px;
+}
+.content-container .form-container {
+  font-size: 14px;
+  margin-top: 20px;
+}
+.content-container .form-container form .input-field {
+  display: flex;
+  margin-top: 20px;
+}
+.content-container .form-container form .input-field p {
+  width: 20%;
+}
+.content-container .form-container form .input-field input {
+  width: 60%;
+}
+.content-container .form-container button {
+  margin-top: 30px;
+  padding: 12px;
+  border: none;
+  background-color: #aecbfa;
+  cursor: pointer;
+}
+.content-container .form-container button:hover {
+  background-color: #c6dafb;
 }
 
 /*# sourceMappingURL=advanced.css.map */

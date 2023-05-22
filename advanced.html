@@ -9,7 +9,7 @@
 </head>
 <body>
     <header class="advanced-search-header">
-        <a href="index.html">GOOGLE</a>
+        <a href="index.html">Google</a>
     </header>
     <div class="content-container">
         <h3>Advanced Search</h3>
@@ -18,12 +18,23 @@
             <p>Find pages with...</p>
             <div class="form-container">
                 <form action="https://www.google.com/search">
-                    <div class="labels-left">
+                    <div class="input-field">
                         <p>all these words:</p>
-                        <p>this exact word or phrase:</p>
-                        <p>any of these words:</p>
-                        <p>none of these words:</p>
+                        <input type="text" name="as_q">
                     </div>
+                    <div class="input-field">
+                        <p>this exact word or phrase:</p>
+                        <input type="text" name="as_epq">
+                    </div>
+                    <div class="input-field">
+                        <p>any of these words:</p>
+                        <input type="text" name="as_oq">
+                    </div>
+                    <div class="input-field">
+                        <p>none of these words:</p>
+                        <input type="text" name="as_eq">
+                    </div>
+                    <button type="submit">Advanced Search</button>
                 </form>
             </div>
         </div>
