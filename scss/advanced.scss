@@ -1,0 +1,37 @@
+$primary-color: #f8f9fa;
+$secondary-color: #2F332F;
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 1px solid red;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding: 20px 0 0 20px;
+
+}
+
+.content-container {
+    width: 90%;
+    margin: 60px auto;
+
+    hr {
+        margin-top: 20px;
+    }
+    
+    .content {
+        margin-top: 40px;
+    }
+}
